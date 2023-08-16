@@ -1,0 +1,5 @@
+virtualenv --version
+virtualenv my_project
+activating virtual environment: source ./my_project/Scripts/activate
+
+
