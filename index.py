@@ -1,6 +1,4 @@
-
 from flask import Flask, jsonify, request
-
 app = Flask(__name__)
 
 incomes = [
@@ -12,11 +10,11 @@ incomes = [
 def get_incomes():
     return jsonify(incomes)
 
-
 @app.route('/incomes', methods=['POST'])
 def add_income():
     incomes.append(request.get_json())
     return '', 204
+
 
 # from flask import Flask, jsonify, request
 # from cashman.model.expense import Expense, ExpenseSchema

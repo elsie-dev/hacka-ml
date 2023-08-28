@@ -1,6 +1,5 @@
 ## Creating RESTful Endpoint for Backend
-
-Creating Backend Api and securing API 
+Creating Backend Api and securing API
 
 ## Requirements
 - Python and Pip Installed
