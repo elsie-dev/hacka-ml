@@ -5,10 +5,10 @@ This is a  backend API server written in Flask used to track income and expenses
 - Python and Pip Installed
 - Docker Installed
 
-Setting up a virtual environment then installing: 
+Setting up a virtual environment and then installing: 
 ``` pip install Flask ```
 ``` pip install Marshmallow```
-```pip install Cashman``
+```pip install Cashman```
 
 ## Running the API
 To issue requests to the API
