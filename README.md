@@ -1,11 +1,14 @@
 ## Creating RESTful Endpoint for Backend
-Creating Backend Api and securing API
+This is a  backend API server written in Flask used to track income and expenses.
 
 ## Requirements
 - Python and Pip Installed
 - Docker Installed
 
+Setting up a virtual environment then installing: 
 ``` pip install Flask ```
+``` pip install Marshmallow```
+```pip install Cashman``
 
 ## Running the API
 To issue requests to the API
